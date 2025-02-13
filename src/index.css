@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-background{
+  background-size: cover;
+  background-position: center;
+  max-height: 250px;
+  width: 100%;
+}
+
+.logo {
+  position: fixed;
+  left: 50%;
+  top: 6%;
+  translate: -50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text{
+  display: flex;
+  flex-direction: column;
+  line-height: 0.1;
+}
+
+.logo-text h1{
+  color: #32CD32;
+}
+
+.logo-text p{
+  color: white;
+}
+
+.logo img {
+  width: 100px;
+}
+
+textarea{
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+button{
+  background-color: #035A9D;
+  border-radius: 6px;
+  border: none;
+  width: 320px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.translate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  margin: 20px auto;
+  padding: 0px 20px 20px;
+  max-width: 370px;
+  max-height: 510px;
+  border: 3px solid black;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+.translate h1{
+  color: #035A9D;
+  font-size: 20px;
+  text-align: center;
+}
+
+.translate input-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-textarea{
+  width: 320px;
+  height: 120px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.language-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 8px;
+  padding-right: 110px;
+  padding-bottom: 10px;
+}
+
+.language-selector button {
+  margin-top: 38px;
+}
+
+.language-option label{
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.translation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.translation button {
+  margin-top: 30px;
+}
