@@ -1,3 +1,5 @@
+# [Click here to try it out!](https://pollyglot-vert.vercel.app/)
+
 # AI Language Translation App
 
 A React-based application that provides real-time language translation powered by Anthropic's Claude API and deployed using Cloudflare Workers.
